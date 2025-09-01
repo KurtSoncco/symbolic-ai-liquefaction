@@ -1,11 +1,11 @@
-# [Project Title]
+# Symbolic Regression for Liquefaction Analysis and Insights
 
-[![Project Status](https://img.shields.io/badge/Project%20Status-Active-brightgreen?style=for-the-badge)](https://github.com/yourusername/yourproject)
+[![Project Status](https://img.shields.io/badge/Project%20Status-Active-brightgreen?style=for-the-badge)](https://github.com/KurtSoncco/symbolic-ai-liquefaction)
 [![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
-[![CI](https://github.com/yourusername/yourproject/actions/workflows/ci.yml/badge.svg)](https://github.com/yourusername/yourproject/actions)
+[![CI](https://github.com/yourusername/yourproject/actions/workflows/ci.yml/badge.svg)](https://github.com/KurtSoncco/symbolic-ai-liquefaction/actions)
 [![uv](https://img.shields.io/badge/uv-%3E%3D0.1.0-blue?style=for-the-badge)](https://github.com/astral-sh/uv)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellowgreen?style=for-the-badge)](https://opensource.org/licenses/MIT)
-[![Github stars](https://img.shields.io/github/stars/yourusername/yourproject?style=social)](https://github.com/yourusername/yourproject/stargazers)
+[![Github stars](https://img.shields.io/github/stars/yourusername/yourproject?style=social)](https://github.com/KurtSoncco/symbolic-ai-liquefaction/stargazers)
 
 > _Provide a one-paragraph abstract summarizing the project's goals, methods, and key findings._
 
