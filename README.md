@@ -7,7 +7,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellowgreen?style=for-the-badge)](https://opensource.org/licenses/MIT)
 [![Github stars](https://img.shields.io/github/stars/yourusername/yourproject?style=social)](https://github.com/KurtSoncco/symbolic-ai-liquefaction/stargazers)
 
-> _Provide a one-paragraph abstract summarizing the project's goals, methods, and key findings._
+> Symbolic AI regression of Liquefaction energy-based analysis, data-driven relationship of Vs profiles and Liquefaction triggering effect. 
 
 [Research Questions](#-research-questions--hypothesis) • [Methodology](#️-methodology) • [Data](#-data) • [How to Reproduce](#-how-to-reproduce) • [Key Results](#-key-results)
 
@@ -15,9 +15,8 @@
 
 ## 🎯 Research Questions / Hypothesis
 
-> _Clearly state the primary research questions or hypotheses this project aims to address. Use a bulleted list._
-> - _Question 1: ..._
-> - _Question 2: ..._
+> - _Question 1: How much improvement can the AI have in energy-based relationships in geotechnical parameters such as Shear Wave Velocity (Vs) and Liquefaction triggering?
+> - _Question 2: How muxh explainability can we get based on symbolic AI results compared to human-based relationships?
 
 ---
 
@@ -41,18 +40,19 @@
 
 1.  **Clone the repository:**
     ```bash
-    git clone [URL_OF_THIS_REPO]
-    cd [NAME_OF_THIS_REPO]
+    git clone https://github.com/KurtSoncco/symbolic-ai-liquefaction.git
+    cd symbolic-ai-liquefaction
     ```
 2.  **Create and activate a virtual environment:**
     ```bash
-    python -m venv .venv
+    pyenv local 3.12
+    uv venv
     source .venv/bin/activate
     ```
 3.  **Sync dependencies using uv:**
     This command installs the exact dependencies listed in `pyproject.toml`.
     ```bash
-    uv sync
+    uv sync --extra dev
     ```
 4.  **Run the analysis:**
     > _Explain the final step. Is it running a notebook or a script?_

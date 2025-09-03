@@ -1,7 +1,7 @@
 [project]
-name = "my-research-project"
+name = "symbolic-liquefaction"
 version = "0.1.0"
-description = "A short description of the project."
+description = "Symbolic AI regression for energy-based liquefaction."
 authors = [
     { name = "Kurt Walter Soncco Sinchi", email = "kurtwal98@berkeley.edu" },
 ]
