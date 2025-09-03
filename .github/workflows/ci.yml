@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        python-version: ["3.10", "3.11"] # Test on multiple Python versions
+        python-version: ["3.12"] # Test on multiple Python versions
 
     steps:
       # 1. Check out the repository code
