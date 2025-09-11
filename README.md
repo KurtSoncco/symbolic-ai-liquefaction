@@ -45,7 +45,7 @@
     ```
 2.  **Create and activate a virtual environment:**
     ```bash
-    pyenv local 3.12
+    pyenv local 3.11
     uv venv
     source .venv/bin/activate
     ```

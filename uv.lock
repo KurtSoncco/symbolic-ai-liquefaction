@@ -193,6 +193,19 @@ css = [
 ]
 
 [[package]]
+name = "box-sdk-gen"
+version = "1.16.0"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "requests" },
+    { name = "requests-toolbelt" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/f8/4c/4bd1644b40a96f0efa5aa8b07601c1150907f9e205589fcafb87001b247a/box_sdk_gen-1.16.0.tar.gz", hash = "sha256:e460e3c74193d4fde9efa387ebdc51dda3785b916a737b9387097297b10c06a6", size = 252006, upload-time = "2025-08-05T13:55:44.141Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/8b/ea/29e461e617275fd500eb6277eaf89d3686e6a42e2a8d69e266a5fb1627f0/box_sdk_gen-1.16.0-py3-none-any.whl", hash = "sha256:40b531260fd6379a84d812b093c0e69240eb81355bf04c00ca89898c0b852831", size = 530267, upload-time = "2025-08-05T13:55:42.768Z" },
+]
+
+[[package]]
 name = "certifi"
 version = "2025.8.3"
 source = { registry = "https://pypi.org/simple" }
@@ -2077,6 +2090,18 @@ wheels = [
 ]
 
 [[package]]
+name = "requests-toolbelt"
+version = "1.0.0"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "requests" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/f3/61/d7545dafb7ac2230c70d38d31cbfe4cc64f7144dc41f6e4e4b78ecd9f5bb/requests-toolbelt-1.0.0.tar.gz", hash = "sha256:7681a0a3d047012b5bdc0ee37d7f8f07ebe76ab08caeccfc3921ce23c88d5bc6", size = 206888, upload-time = "2023-05-01T04:11:33.229Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/3f/51/d4db610ef29373b879047326cbf6fa98b6c1969d6f6dc423279de2b1be2c/requests_toolbelt-1.0.0-py2.py3-none-any.whl", hash = "sha256:cccfdd665f0a24fcf4726e690f65639d272bb0637b9b92dfd91a5568ccf6bd06", size = 54481, upload-time = "2023-05-01T04:11:28.427Z" },
+]
+
+[[package]]
 name = "rfc3339-validator"
 version = "0.1.4"
 source = { registry = "https://pypi.org/simple" }
@@ -2517,8 +2542,9 @@ wheels = [
 [[package]]
 name = "symbolic-liquefaction"
 version = "0.1.0"
-source = { virtual = "." }
+source = { editable = "." }
 dependencies = [
+    { name = "box-sdk-gen" },
     { name = "jupyterlab" },
     { name = "matplotlib" },
     { name = "numpy", version = "2.2.6", source = { registry = "https://pypi.org/simple" }, marker = "python_full_version < '3.11'" },
@@ -2536,6 +2562,7 @@ dev = [
 
 [package.metadata]
 requires-dist = [
+    { name = "box-sdk-gen" },
     { name = "jupyterlab" },
     { name = "matplotlib" },
     { name = "numpy" },

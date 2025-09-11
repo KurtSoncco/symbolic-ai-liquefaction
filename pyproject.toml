@@ -13,6 +13,7 @@ dependencies = [
     "seaborn",
     "scikit-learn",
     "jupyterlab",
+    "box-sdk-gen"
 ]
 
 [project.optional-dependencies]
@@ -23,3 +24,6 @@ dev = [
 
 [tool.setuptools]
 packages = ["src"]
+
+[tool.uv]
+package = true
